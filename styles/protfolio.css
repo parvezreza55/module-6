@@ -76,6 +76,11 @@
 .banner__profile__pic {
   width: 580px;
 }
+.banner__content .contact-btn {
+  background-color: white;
+  color: #fd6e0a;
+  border: 2px solid #fd6e0a;
+}
 
 /* main styles  */
 main {
