@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* nav styles  */
+.open-sans-uniquifier {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.primary__color {
+  color: #fd6e0a;
+}
+.dark-2 {
+  color: #474747;
+}
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 200px;
+}
+.nav-header ul {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.nav-header ul li {
+  list-style: none;
+}
+.nav-header li a {
+  text-decoration: none;
+}
+.btn-primary {
+  background-color: #fd6e0a;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 18px 36px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* nav section ends from here  */
+/* header  */
+.header {
+  background-image: url(../images/developer.png), url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, right bottom;
+}
+/* banner section start from here  */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin: 0 35px 0 230px;
+}
+.banner__greetings {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.4rem;
+}
+.banner__title {
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 1.4rem;
+}
+.banner__desc {
+  font-size: 15px;
+  line-height: 2rem;
+}
+
+.banner__profile__pic {
+  width: 580px;
+}
+
+/* main styles  */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* shared styles  */
+
+.about_me {
+  padding: 130px 156px;
+}
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+.section-para {
+  font-size: 15px;
+  color: #757575;
+}
+.secondary-color {
+  background-color: #fff8f3;
+}
+
+/* about me section start from here */
+
+.about_me {
+  border-radius: 10px;
+  text-align: center;
+  padding: 155px 142px 157px 120px;
+  margin-top: 130px;
+}
+.avout-item-title {
+  font-size: 18px;
+  color: #757575;
+}
+.about-items {
+  display: flex;
+  justify-content: space-around;
+}
+.about-me-div {
+  background-color: white;
+  border: 1px solid black;
+}
+/* about me section ends from here */
